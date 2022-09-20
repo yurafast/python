@@ -10,7 +10,7 @@
 from random import *
 n=int(input('Введите число: '))
 
-some_list = [randint(-n,n) for _ in range(randint(5,10))]
+some_list = [randint(-n,n) for _ in range(randint(3,15))]
 print(some_list)
 
 
